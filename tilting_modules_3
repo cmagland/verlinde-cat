@@ -1,4 +1,4 @@
-G := SL(3,2);
+G := SL(2,3);
 
 // Define tensor powers
 
@@ -11,7 +11,8 @@ V4 := TensorProduct(V, V3);
 // Find highest weight modules
 // Playing around this seems incorrect
 
+T0 := TrivialModule(G, GF(3));
 T1 := V;				// Dimension 2
-T2 := IndecomposableSummands(V2)[2];	// Dimension 3
+T2 := IndecomposableSummands(V2)[2];	// Dimension 9
 T3 := IndecomposableSummands(V3)[2];	// Dimension 6 (Composition series seems to be wrong)
 T4 := IndecomposableSummands(V4)[2];	// Dimension 3 (That seems wrong)
