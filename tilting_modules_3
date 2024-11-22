@@ -11,13 +11,18 @@ V := GModule(G);
 V2 := TensorProduct(V, V);
 V3 := TensorProduct(V, V2);
 V4 := TensorProduct(V, V3);
+V5 := TensorProduct(V, V4);
+V6 := TensorProduct(V, V5);
+V7 := TensorProduct(V, V6);
 
 
 // Find highest weight modules
-// Playing around this seems incorrect
 
 T0 := TrivialModule(G, F);
 T1 := V;				// Dimension 2
 T2 := IndecomposableSummands(V2)[2];	// Dimension 3
 T3 := IndecomposableSummands(V3)[2];	// Dimension 6
-T4 := IndecomposableSummands(V4)[2];	// Dimension 6
+T4 := IndecomposableSummands(V4)[5];	// Dimension 6
+T5 := IndecomposableSummands(V5)[5];	// Dimension 6
+T6 := IndecomposableSummands(V6)[15];	// Dimension 12
+T7 := IndecomposableSummands(V7)[21];	// Dimension 12
