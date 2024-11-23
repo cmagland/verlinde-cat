@@ -1,5 +1,5 @@
 /*
-	Very start of constructing the tilting modules of SL2 in p = 3. Don't judge me I am baby
+	Constructs tilting modules T_0 through T_7 for p = 3
 */
 
 F<x> := GF(3^15);
