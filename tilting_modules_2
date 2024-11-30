@@ -1,0 +1,32 @@
+/*
+	Start of constructing the tilting modules of SL2 in p = 2
+*/
+
+F<x> := GF(2^15);
+G := SL(2,F);
+
+// Define tensor powers
+
+V := GModule(G);
+V2 := TensorProduct(V, V);
+V3 := TensorProduct(V, V2);
+V4 := TensorProduct(V, V3);
+V5 := TensorProduct(V, V4);
+V6 := TensorProduct(V, V5);
+V7 := TensorProduct(V, V6);
+V8 := TensorProduct(V, V7);
+V9 := TensorProduct(V, V8);
+
+
+// Find highest weight modules
+
+T0 := TrivialModule(G, F);
+T1 := V;				// Dimension 2
+T2 := V2;				// Dimension 4
+T3 := IndecomposableSummands(V3)[3];	// Dimension 4
+T4 := IndecomposableSummands(V4)[3];	// Dimension 8
+T5 := IndecomposableSummands(V5)[9];	// Dimension 8
+T6 := IndecomposableSummands(V6)[9];	// Dimension 16
+T7 := IndecomposableSummands(V7)[24];	// Dimension 8
+T8 := IndecomposableSummands(V8)[23];	// Dimension 16
+T9 := IndecomposableSummands(V9)[99];	// Dimension 16
