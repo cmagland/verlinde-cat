@@ -27,3 +27,4 @@ T4 := IndecomposableSummands(V4)[5];	// Dimension 6
 T5 := IndecomposableSummands(V5)[5];	// Dimension 6
 T6 := IndecomposableSummands(V6)[15];	// Dimension 12
 T7 := IndecomposableSummands(V7)[21];	// Dimension 12
+T8 := IndecomposableSummands(V8)[43];	// Dimension 12
