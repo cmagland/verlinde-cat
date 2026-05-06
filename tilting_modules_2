@@ -2,7 +2,7 @@
 	Start of constructing the tilting modules of SL2 in p = 2
 */
 
-F<x> := GF(2^15);
+F<x> := GF(2^25);
 G := SL(2,F);
 
 // Define tensor powers
