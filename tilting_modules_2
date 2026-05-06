@@ -27,6 +27,19 @@ T3 := IndecomposableSummands(V3)[3];	// Dimension 4
 T4 := IndecomposableSummands(V4)[3];	// Dimension 8
 T5 := IndecomposableSummands(V5)[9];	// Dimension 8
 T6 := IndecomposableSummands(V6)[9];	// Dimension 16
-T7 := IndecomposableSummands(V7)[24];	// Dimension 8
+T7 := IndecomposableSummands(V7)[25];	// Dimension 8
 T8 := IndecomposableSummands(V8)[23];	// Dimension 16
 T9 := IndecomposableSummands(V9)[99];	// Dimension 16
+
+
+// Simples
+
+L0 := T0;							// Dimension 1
+L1 := T1;							// Dimension 2
+L2 := CompositionFactors(T2)[2];	// Dimension 2
+L3 := T3;							// Dimension 4
+L4:=CompositionFactors(T4)[3];		// Dimension 2
+L5:=CompositionFactors(T5)[2];		// Dimension 4
+L6:=CompositionFactors(T6)[5];		// Dimension 4
+L7:=T7;								// Dimension 2
+
