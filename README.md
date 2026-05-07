@@ -2,4 +2,6 @@
 A space for saving magma scripts used to explore the verlinde categories and its construction
 
 ### File descriptions
-The file 'tilting_modules_3' is Charlie starting to mess around trying to build our indecomposable tilting modules for SL(2, 3)
+'tilting_modules_p' gives the tilting modules for SL2 over characteristic p
+
+'Ver8' includes some of the construction of the Ver8, but requires you to run 'tilting_modules_2' first to load the tilting modules.
