@@ -1,3 +1,4 @@
 P := DirectSum(T3, DirectSum(T4, DirectSum(T5, T6)));
 
 
+// fix this
