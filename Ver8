@@ -1,9 +1,3 @@
 P := DirectSum(T3, DirectSum(T4, DirectSum(T5, T6)));
-A := EndomorphismRing(P);
-Pd := Dual(P);
 
-TT3 := Hom(P, T3);
-TT4 := Hom(P, T4);
-TT5 := Hom(P, T5);
-TT6 := Hom(P, T6);
 
