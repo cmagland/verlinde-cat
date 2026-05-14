@@ -1,4 +1,15 @@
 P := DirectSum(T3, DirectSum(T4, DirectSum(T5, T6)));
+A := EndomorphismRing(P);    // Dimension 13
 
 
-// fix this
+// Ver8+
+
+Pp := DirectSum(T4, T6);
+Ap := EndomorphismRing(P);    // Dimensional 10
+
+
+
+// Image of Projective Indecomposables, assuming no maps are killed
+
+TT4 := GHom(Pp, T4);
+TT6 := GHom(Pp, T6);
